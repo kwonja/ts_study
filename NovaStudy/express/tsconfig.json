@@ -1,0 +1,25 @@
+{
+    "ts-node": {
+        "esm": true
+    },
+    "compilerOptions": {
+        "lib": ["es5", "es6", "dom"],
+        "target": "es2017",
+        "preserveValueImports": false,
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "outDir": "dist"
+    },
+    "include": [
+        "src/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
